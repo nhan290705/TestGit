@@ -4,7 +4,7 @@ namespace BaiLab.Models
 {
     public class Student
     {
-        public int Id { get; set; } // Mã sinh viên
+        public int Id { get; set; } // Mã sinh viên abc
 
         [Required(ErrorMessage ="The Name is invalid")]
         public string Name { get; set; } // Họ tên
